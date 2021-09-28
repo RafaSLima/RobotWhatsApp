@@ -113,7 +113,7 @@ for id in ids:
         send_file(file[0][0])
     cursor.execute("UPDATE SEND_WHATSAPP SET VALIDATTION = 1, DATE_SHIP = GETDATE() WHERE ID=?",id)
     cursor.commit()
-    
+
 
 
 
